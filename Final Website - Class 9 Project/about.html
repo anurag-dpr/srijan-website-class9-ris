@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rythm - About</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="styleabout.css">
+</head>
+<body>
+    <nav>
+        <ul>
+             <li class="brand"><img src="logo.png" alt="Rythm">Rythm</li>
+             <li class="first"><a href="index.html">Home</a></li>
+             <li class="second"><a href="playlist.html">Playlist</a></li>
+             <li class="third"><a href="artists.html">Artists</a></li>
+             <li class="fourth"><a href="about.html">About</a></li>           
+        </ul>
+        <img src="pfp.png" class="pfp" onclick="toggleMenu()">      
+        
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="pfp.png" id="subpfp" width="50px">
+                    <h3>Parv Jain</h3>
+                </div>
+                <hr>
+
+                <a href="#" class="sub-menu-link">
+                    <img src="submenu/profile.png">
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <img src="submenu/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <img src="submenu/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <img src="submenu/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+<script>
+let subMenu = document.getElementById("subMenu");
+
+function toggleMenu() {
+    subMenu.classList.toggle("open-menu");
+}
+</script>
+
+    <p id="AboutPara"><i>Welcome to Rythm, the music website that lets you discover and enjoy your favorite tunes. Rythm is created by a group of students from Rankers International School who are passionate about music and technology. We believe that music is a universal language that can connect people from different backgrounds, cultures, and preferences, That is why we created Rythm. This website is a project of students from higher secondary under the supervision of Anurag Vaishnav. The students of Class 9, Parv and Swechha are the one who came up with the idea and the design of the website. They are passionate about web development and have a keen eye for aesthetics and Parv and Paridhi are the one who coded and implemented the website. They are skilled programmers and have a knack for solving problems. Together, they have created this wonderful website that showcases their creativity and knowledge. </i>
+    </p>
+</body>
+</html>

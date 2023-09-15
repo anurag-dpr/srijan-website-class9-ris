@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rythm - Artists</title>
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <link rel="stylesheet" href="styleartist.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                 <li class="brand"><img src="logo.png" alt="Rythm">Rythm</li>
+                 <li class="first"><a href="index.html">Home</a></li>
+                 <li class="second"><a href="playlist.html">Playlist</a></li>
+                 <li class="third"><a href="artists.html">Artists</a></li>
+                 <li class="fourth"><a href="about.html">About</a></li>           
+            </ul>
+            <img src="pfp.png" class="pfp" onclick="toggleMenu()">      
+            
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="pfp.png" id="subpfp" width="50px">
+                        <h3>Parv Jain</h3>
+                    </div>
+                    <hr>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="submenu/profile.png">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="submenu/setting.png">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="submenu/help.png">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="submenu/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+
+
+<div class="ArtistWrap">
+    <div class="Con1">
+        <img src="/artists/1.jpg" height="100px" class="ArtistImg">
+        <br>
+        <h3>xxxtentacion - Jahseh Dwayne Ricardo Onfroy, known professionally as XXXTentacion, was an American rapper and singer-songwriter with a career that lasted five years</h3>
+    </div>
+
+    <div class="Con2">
+        <img src="/artists/2.png" height="100px" class="ArtistImg">
+        <br>
+        <h3>Eminem - His real name is Marshall Bruce Mathers III, is an American rapper, songwriter, record producer, and actor. He is one of the most successful and best-selling artists</h3>
+    </div>
+
+    <div class="Con3">
+        <img src="/artists/3.png" height="100px" class="ArtistImg">
+        <br>
+        <h3>BoyWithUke - He is a Korean-American alt-pop singer, musician and internet personality who hides his appearance. He is one of the most popular faceless artists.</h3>
+    </div>
+
+    <div class="Con4">
+        <img src="/artists/4.png" height="100px" class="ArtistImg">
+        <br>
+        <h3>Drake - He is a Canadian rapper, singer, songwriter, and record producer. He is one of the best-selling music artists. He is known for many hit songs.</h3>
+    </div>
+
+    <div class="Con5">
+        <img src="/artists/5.png" height="100px" class="ArtistImg">
+        <br>
+        <h3>Post Malone - Austin Richard Post known professionally as Post Malone, is an American rapper, singer, songwriter, and record producer. Malone began his music career in 2011</h3>
+    </div>
+
+    <div class="Con6">
+        <img src="/artists/6.png" height="100px" class="ArtistImg">
+        <br>
+        <h3>Arijit Singh - He was born on 25 April 1987 in Jiaganj, Murshidabad, West Bengal. Arijit Singh is one of the most loved and famous singers from India.</h3>
+    </div>
+</div>
+    </body>
+</html>
